@@ -22,6 +22,8 @@ namespace lab7
             Brush brush = Brushes.White;
             Graphics gr = this.CreateGraphics();
             gr.FillPie(brush, 0, 0, 100, 100, -90, 90);
+            brush = Brushes.Green;
+            gr.FillPie(brush, 100, 100, 100, 100);
             gr.Dispose();
 
 
